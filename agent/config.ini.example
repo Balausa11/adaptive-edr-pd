@@ -1,0 +1,16 @@
+[server]
+base_url = http://SERVER_HOST:8088
+url      = http://SERVER_HOST:8088
+
+[agent]
+agent_id    = LAPTOP1
+id          = LAPTOP1
+; через запятую; пусто = Рабочий стол, Документы, Загрузки
+watch_paths =
+
+[protection]
+enabled           = true
+password          = change-me
+max_attempts      = 3
+block_mail        = false
+monitor_clipboard = true
